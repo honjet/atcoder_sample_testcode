@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "AtCoder Sample Test-code",
+  "version": "1.0",
+  "description": "Copy AtCoder test code of sample case for Rust",
+  "content_scripts": [
+    {
+      "matches": ["*://*.atcoder.jp/*"],
+      "js": ["atcoder_sample_testcode.js"]
+    }
+  ]
+}
